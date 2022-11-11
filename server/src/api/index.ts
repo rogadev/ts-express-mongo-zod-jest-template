@@ -1,7 +1,7 @@
 import express from 'express';
 
 import MessageResponse from '../interfaces/MessageResponse';
-import testAPI from './test-api/routes';
+import testAPI from './test/routes';
 
 const router = express.Router();
 
