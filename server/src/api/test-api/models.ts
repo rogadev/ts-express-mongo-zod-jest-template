@@ -1,7 +1,6 @@
 import * as z from 'zod';
 
 const Test = z.object({
-  id: z.string(),
   message: z.string(),
 });
 
